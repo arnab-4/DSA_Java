@@ -6,7 +6,7 @@ public class Solution {
         }
 
         // Initialize two pointers
-         temp1 = headA;
+         
        
 
         // Traverse both lists
