@@ -5,7 +5,7 @@ public class infix_to_postfix {
 
     // Function to convert an infix expression to a postfix expression.
     public static int priority(char ch) {
-        switch(ch) {
+        switch (ch) {
             case '+':
             case '-':
                 return 1;
@@ -26,8 +26,8 @@ public class infix_to_postfix {
         while (i < exp.length()) {
             char c = exp.charAt(i);
             if ((c >= 'A' && c <= 'Z') ||
-                (c >= 'a' && c <= 'z') ||
-                (c >= '0' && c <= '9')) {
+                    (c >= 'a' && c <= 'z') ||
+                    (c >= '0' && c <= '9')) {
                 ans += c;
             } else if (c == '(') {
                 st.push(c);
