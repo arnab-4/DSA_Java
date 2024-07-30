@@ -1,4 +1,5 @@
-package LinkedList;
+
+import Node;
 
 class Node {
     int data;
